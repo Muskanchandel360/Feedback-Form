@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Message Submission</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <input type="hidden" name="access_key" value="4b1d30b7-781e-46f4-b770-315e25a5913c">
+
+            <div class="form-content">
+                <h1>
+                    Message Me
+                </h1>
+                <div class="name">
+                    <input type="text" name="name" placeholder="Your Name">
+                </div>
+                <div class="email">
+                    <input type="text" name="email" placeholder="Your Email">
+                </div>
+                <div class="msg">
+                    <input type="text" name="message" placeholder="Your Message">
+                </div>
+                <div class="button">
+                    <button>Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
